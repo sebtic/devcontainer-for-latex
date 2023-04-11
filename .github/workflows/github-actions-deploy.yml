@@ -26,5 +26,5 @@ jobs:
 
           - name: 'Build & Push Image'
             run: |
-              docker build . --tag ghcr.io/sebtic/devcontainers/latex:latest
-              docker push ghcr.io/sebtic/devcontainers/latex:latest
+              docker build . --tag ghcr.io/sebtic/devcontainers-latex:latest
+              docker push ghcr.io/sebtic/devcontainers-latex:latest
